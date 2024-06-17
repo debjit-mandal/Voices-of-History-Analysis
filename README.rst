@@ -22,23 +22,23 @@ The dataset offers insights into the context and content of speeches that have p
 Analysis Overview
 -----------------
 
-### Sentiment Analysis
+**Sentiment Analysis**
 
 Sentiment analysis reveals the emotional tone behind each speech, providing a clear visualization of the diversity of emotions.
 
-### Topic Modeling
+**Topic Modeling**
 
 Topic modeling identifies key themes across the speeches, such as civil rights, social justice, war, democracy, and leadership.
 
-### Emotion Detection
+**Emotion Detection**
 
 Emotion detection analyzes the polarity and subjectivity of the speeches, demonstrating varying degrees of emotional intensity and personal opinion.
 
-### N-Gram Analysis
+**N-Gram Analysis**
 
 N-gram analysis uncovers frequently occurring word pairs (bigrams) in the speeches, providing insights into common phrases and expressions.
 
-### TF-IDF Visualization
+**TF-IDF Visualization**
 
 The PCA of the TF-IDF matrix offers a visual exploration of the similarities and differences between the speeches based on their textual content.
 
@@ -50,7 +50,7 @@ The "Voices of History: 50 Iconic Speeches" dataset offers a rich resource for u
 Getting Started
 ---------------
 
-### Prerequisites
+**Prerequisites**
 
 To run the notebook, you need to have the following Python packages installed:
 
@@ -65,42 +65,35 @@ To run the notebook, you need to have the following Python packages installed:
 
 You can install the required packages using pip:
 
-```sh
-pip install pandas numpy matplotlib seaborn wordcloud textblob nltk scikit-learn
-```
+``pip install pandas numpy matplotlib seaborn wordcloud textblob nltk scikit-learn``
 
-### Running the Notebook
+**Running the Notebook**
 
 Clone this repository to your local machine:
 
-```sh
-git clone https://github.com/debjit-mandal/Voices-of-History-Analysis.git
-```
+``git clone https://github.com/debjit-mandal/Voices-of-History-Analysis.git``
 
 Navigate to the repository folder:
 
-```sh
-cd Voices-of-History-Analysis
-```
+``cd Voices-of-History-Analysis``
 
 Launch Jupyter Notebook:
 
-```sh
-jupyter notebook
-```
+``jupyter notebook``
 
-Open `Voices_of_History_Analysis.ipynb` and run the cells to see the analysis.
+Open ``Voices_of_History_Analysis.ipynb`` and run the cells to see the analysis.
 
 Acknowledgements
 ----------------
 
 The dataset is a collection of some of the most iconic speeches in history, curated to provide valuable insights into the art of oratory. The analysis was conducted to uncover patterns and themes that highlight the enduring power of spoken words.
 
-The dataset can be found from Kaggle: [Voices of History: 50 Iconic Speeches](https://www.kaggle.com/datasets/fahadrehman07/voices-of-history-50-famous-speeches)
+The dataset can be found from Kaggle : https://www.kaggle.com/datasets/fahadrehman07/voices-of-history-50-famous-speeches
+
 License
 -------
 
-This project is licensed under the MIT License - see the (LICENSE)[LICENSE] file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 -------------------------------------------------------------------------------------------------------
 
